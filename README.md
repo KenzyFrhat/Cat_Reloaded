@@ -153,13 +153,8 @@ This project is for educational purposes.
 
 ---
 
-<<<<<<< HEAD
+
 # 👩‍💻 **Developer**
 **Kenzy Frhat**  
 Faculty of Computers & Information — Year 2  
 Created as part of an intermediate-level data analysis assessment.
-=======
-#  👩‍💻 **Author**
-**Kenzy Frhat**  
-Created as part of an intermediate-level data analysis assessment.
->>>>>>> 7b343459f2caffe34ed1493f5d0b7e7842b00aad

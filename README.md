@@ -1,29 +1,60 @@
-# Intermediate Data Analysis Tasks
+# 📊 **Intermediate Data Analysis Tasks**
+*A structured set of hands-on tasks covering NumPy, Data Cleaning, and Data Visualization.*
 
-This repository contains a collection of **intermediate-level data analysis tasks** designed to assess and demonstrate proficiency in **NumPy**, **data cleaning**, and **data visualization** using Python.  
-Each task is organized into a clear, self-contained structure with its own dataset and Jupyter Notebook.
+<p align="center">
+  <img src="https://img.shields.io/badge/Python-3.9+-blue?logo=python&logoColor=white" />
+  <img src="https://img.shields.io/badge/NumPy-Data%20Computing-blue?logo=numpy&logoColor=white" />
+  <img src="https://img.shields.io/badge/Pandas-Data%20Analysis-green?logo=pandas&logoColor=white" />
+  <img src="https://img.shields.io/badge/Status-Completed-success" />
+</p>
 
----
-
-## Repository Overview
-
-The project is divided into three main tasks:
-
-1. **NumPy Fundamentals** – Conceptual and practical understanding of NumPy arrays and operations.
-2. **Data Cleaning** – Cleaning, preprocessing, and exploratory analysis of a real-world dataset.
-3. **Data Visualization** – Extracting insights through visual exploration of a loan approval dataset.
-
-The repository is structured to be **readable, evaluable, and reproducible** for reviewers, instructors, or collaborators.
+<p align="center">
+  <b>Clean notebooks</b> • <b>Real datasets</b> • <b>Analytical thinking</b> • <b>Evaluation-ready</b>
+</p>
 
 ---
 
-## Repository Structure
+# 🌟 **Overview**
 
-```
+This repository contains a collection of **intermediate-level data analysis tasks** designed to evaluate practical skills in:
+
+- Numerical computing with **NumPy**
+- **Data cleaning & preprocessing** using Pandas
+- **Exploratory data analysis and visualization**
+
+Each task is implemented in a **self-contained Jupyter Notebook**, with clear reasoning, step-by-step processing, and meaningful visual insights.
+
+---
+
+# ✨ **What This Repository Demonstrates**
+
+### 🧮 1. NumPy Fundamentals
+- Difference between NumPy arrays and Python lists  
+- 2D array indexing and slicing  
+- Understanding the `axis` parameter in aggregation functions  
+- Element-wise (`*`) vs matrix (`@`) multiplication  
+
+### 🧹 2. Real-World Data Cleaning
+- Handling missing values and duplicates  
+- Dropping low-quality columns  
+- Renaming columns with consistent conventions  
+- Statistical imputation (mean & mode)  
+- Distribution analysis after cleaning  
+
+### 📈 3. Insightful Data Visualization
+- Income and age distribution analysis  
+- Approval vs rejection comparisons  
+- Categorical analysis (loan purpose, home ownership)  
+- Data-driven interpretation of results  
+
+---
+
+# 🗂️ **Project Structure**
+
+```bash
 TASKS_TO_JOIN/
 │
-├── .venv/
-│   └── Virtual environment (local use only)
+├── .venv/                     # Local virtual environment
 │
 ├── Data_Cleaning/
 │   ├── candyhierarchy2017.xlsx
@@ -33,93 +64,94 @@ TASKS_TO_JOIN/
 │   ├── Loan approval prediction.csv
 │   └── Data_Visualization.ipynb
 │
-├── Numpy.ipynb
+├── Numpy.ipynb                # NumPy concepts & questions
 │
-├── Cat_Reloaded_Img.png
-│   └── Supplementary image asset
+├── Cat_Reloaded_Img.png       # Supplementary image asset
 │
 └── README.md
 ```
 
 ---
 
-## Task 1: NumPy Questions
+# 🧪 **Task Breakdown**
 
+## 🔹 Task 1: NumPy Questions
 **Notebook:** `Numpy.ipynb`
 
-This task focuses on understanding the conceptual and operational differences between NumPy and native Python structures.
-
-### Covered Topics
-- Difference between NumPy arrays and Python lists
-- Indexing elements in 2D NumPy arrays
-- Understanding the `axis` parameter in aggregation functions such as `numpy.sum()`
-- Element-wise multiplication (`*`) vs matrix multiplication (`@`) for 2D arrays
+Focuses on conceptual understanding supported by code examples, including array operations, indexing, and matrix algebra.
 
 ---
 
-## Task 2: Data Cleaning
-
-**Directory:** `Data_Cleaning/`  
+## 🔹 Task 2: Data Cleaning
 **Dataset:** `candyhierarchy2017.xlsx`  
-**Notebook:** `Data_Cleaning.ipynb`
+**Notebook:** `Data_Cleaning/Data_Cleaning.ipynb`
 
-### Objectives
-- Explore the dataset
-- Detect missing values and duplicates
-- Clean and preprocess the data
-- Drop columns with excessive missing values
-- Rename columns using a consistent naming style
-- Handle missing values:
-  - Q1: GOING OUT? → mode
-  - Gender → mode
-  - Age → mean
-- Visualize age distribution after cleaning
-- Visualize top 10 loved and hated candies
-
----
-
-## Task 3: Data Visualization
-
-**Directory:** `Data_Visualization/`  
-**Dataset:** `Loan approval prediction.csv`  
-**Notebook:** `Data_Visualization.ipynb`
-
-### Analysis Areas
-
-#### Income & Age
-- Income distribution
-- Income variability across age groups
-- Approval vs rejection comparison
-
-#### Loan Purpose
-- Most frequent loan purposes
-- Highest approvals
-- Highest rejections
-
-#### Home Ownership & Loan Approval
-- Most common home-ownership type among approved applicants
-- Relationship between mortgage ownership and approval likelihood
+### Key Steps
+- Dataset exploration
+- Missing value & duplicate detection
+- Column filtering based on NaN ratios
+- Mode imputation:
+  - `Q1: GOING OUT?`
+  - `Gender`
+- Mean imputation:
+  - `Age`
+- Age distribution visualization
+- Top 10 loved & hated candies visualization
 
 ---
 
-## Environment & Requirements
+## 🔹 Task 3: Data Visualization
+**Dataset:** Loan Approval Dataset (Kaggle)  
+**Notebook:** `Data_Visualization/Data_Visualization.ipynb`
 
-- Python 3.x
+### Analysis Dimensions
+- **Income vs Age**
+- **Loan Purpose**
+- **Home Ownership & Approval Likelihood**
+
+Each visualization is followed by interpretation and reasoning.
+
+---
+
+# 🚀 **Environment & Usage**
+
+### Requirements
+- Python 3.9+
 - NumPy
 - Pandas
 - Matplotlib / Seaborn
 - Jupyter Notebook
 
+### Run Locally
+```bash
+jupyter notebook
+```
+
+Open the desired notebook and run cells sequentially.
+
 ---
 
-## Notes for Reviewers
+# 📌 **Evaluation Notes**
 
-- Each notebook is self-contained
-- Code is clearly structured with explanations
-- Focus is on analytical reasoning and clarity
+- Each notebook is independent and reproducible  
+- Code is structured and readable  
+- Emphasis is placed on **why** decisions were made, not just results  
+- Suitable for academic evaluation or portfolio review  
 
 ---
 
-## Author
+# 🛣️ **Possible Extensions**
+- Feature engineering
+- Predictive modeling
+- Dashboard-style visualizations
+- Automated data quality checks
 
+---
+
+# 📄 **License**
+This project is for educational purposes.
+
+---
+
+# 👤 **Author**
 Created as part of an intermediate-level data analysis assessment.

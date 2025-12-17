@@ -153,5 +153,7 @@ This project is for educational purposes.
 
 ---
 
-# 👤 **Author**
+# 👩‍💻 **Developer**
+**Kenzy Frhat**  
+Faculty of Computers & Information — Year 2  
 Created as part of an intermediate-level data analysis assessment.

@@ -153,5 +153,6 @@ This project is for educational purposes.
 
 ---
 
-# 👤 **Author**
+#  👩‍💻 **Author**
+**Kenzy Frhat**  
 Created as part of an intermediate-level data analysis assessment.
